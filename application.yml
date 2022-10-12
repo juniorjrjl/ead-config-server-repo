@@ -1,0 +1,6 @@
+eureka:
+  instance:
+    hostname: appconfigserver
+  client:
+    service-url:
+      defaultZone: 'http://appserviceregistry:8761/eureka'
