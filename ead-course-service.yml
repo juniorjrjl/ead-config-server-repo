@@ -54,3 +54,7 @@ management:
         include:
           - refresh
           - health
+
+eureka:
+  instance:
+    hostname: appcourse
