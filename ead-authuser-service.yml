@@ -47,7 +47,7 @@ ead:
 
 authuser:
   refreshscope:
-    name: teste
+    name: teste alterado
 
 management:
   endpoints:
