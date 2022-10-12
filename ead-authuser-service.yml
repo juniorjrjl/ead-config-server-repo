@@ -47,14 +47,14 @@ ead:
 
 authuser:
   refreshscope:
-    name: teste alterado
+    name: teste
 
 management:
   endpoints:
     web:
       exposure:
         include:
-          - refreshs
+          - refresh
           - health
 
 resilience4j:
