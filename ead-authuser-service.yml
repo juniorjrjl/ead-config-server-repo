@@ -49,6 +49,14 @@ authuser:
   refreshscope:
     name: teste
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - refreshs
+          - health
+
 resilience4j:
   circuitbreaker:
     instances:
