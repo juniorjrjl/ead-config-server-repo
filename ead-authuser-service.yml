@@ -45,6 +45,10 @@ ead:
     exchange:
       userEvent: ead.userevent
 
+authuser:
+  refreshscope:
+    name: teste
+
 resilience4j:
   circuitbreaker:
     instances:
