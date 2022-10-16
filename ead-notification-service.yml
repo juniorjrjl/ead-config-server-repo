@@ -5,7 +5,7 @@ server:
 
 spring:
   datasource:
-    url:  jdbc:postgresql://dbcourse/ead-course/ead-notification
+    url:  jdbc:postgresql://dbnotification/ead-notification
     username: notification
     password: notification
   jpa:
