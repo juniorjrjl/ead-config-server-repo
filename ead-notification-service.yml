@@ -35,6 +35,16 @@ logging:
     org.springframework.web: DEBUG
     org.hibernate: INFO
 
+ead:
+  broker:
+    exchange:
+      notification-command-exchange: ead.notificationcommand
+    queue:
+      notification-command-queue:
+        name: ead.notificationcommand.ms.notification
+    key:
+      notification-command-key: ms.notification
+
 management:
   endpoints:
     web:
