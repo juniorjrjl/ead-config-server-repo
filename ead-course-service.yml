@@ -43,9 +43,12 @@ ead:
       auth-user: 'http://ead-authuser-service/ead-authuser'
   broker:
     exchange:
-      userEventExchange: ead.userevent
+      user-event-exchange: ead.userevent
+      notification-command-exchange: ead.notificationcommand
     queue:
       name: ead.userevent.ms.course
+    key:
+      notification-command-key: ms.notification
 
 management:
   endpoints:
