@@ -27,6 +27,11 @@ spring:
     name: ead-notification-service
   rabbitmq:
     addresses: amqps://ejafoygf:enS1512dvovFVFOZ0xEok7F7FjDyeOv1@stingray.rmq.cloudamqp.com/ejafoygf
+    devtools:
+    remote:
+      secret: 123
+    restart:
+      trigger-file: trigger.txt
 
 logging:
   level:
