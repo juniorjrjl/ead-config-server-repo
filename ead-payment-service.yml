@@ -5,7 +5,7 @@ server:
 
 spring:
   datasource:
-    url:  jdbc:postgresql://dbnotification/ead-payment
+    url:  jdbc:postgresql://dbpayment/ead-payment
     username: ead-payment
     password: ead-payment
   jpa:
