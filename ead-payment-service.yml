@@ -38,7 +38,8 @@ logging:
 ead:
   broker:
     exchange:
-      user-event-exchange: ead.userevent
+      user-event-exchange: 
+        name: ead.userevent
     queue:
       user-event-queue:
         name: ead.userevent.ms.payment
