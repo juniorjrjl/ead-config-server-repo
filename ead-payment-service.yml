@@ -40,9 +40,15 @@ ead:
     exchange:
       user-event-exchange: 
         name: ead.userevent
+      payment-command-exchange: 
+        name: ead.paymentcommand
     queue:
       user-event-queue:
         name: ead.userevent.ms.payment
+      payment-command-exchange: 
+        name: ead.paymentcommand.ms.payment
+    key:
+      payment-command-key: ms.payment
 
 management:
   endpoints:
