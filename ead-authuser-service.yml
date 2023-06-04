@@ -28,7 +28,7 @@ spring:
     name: ead-authuser-service
 
   rabbitmq:
-    addresses: amqps://ejafoygf:enS1512dvovFVFOZ0xEok7F7FjDyeOv1@stingray.rmq.cloudamqp.com/ejafoygf
+    addresses: amqps://tdtsoinu:7y8afdBR8yRPKnIOq1qqfC3TxWGd7f16@whale.rmq.cloudamqp.com/tdtsoinu
 
 logging:
   level:
